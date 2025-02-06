@@ -3,7 +3,7 @@ export const Orders = async () => {
     const carOrders = await fetchResponse.json()
 
     let ordersHTML = carOrders.map(car => {
-        const orderPrice = car.Paint.price + car.Interior.price + car.Wheel.price + car.Technology.price
+        const orderPrice = car.paint.price + car.interior.price + car.wheel.price + car.technology.price
              return `<div>Order #${car.id} cost $${orderPrice}</div>`
         }).join("")
 
