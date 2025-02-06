@@ -1,0 +1,23 @@
+Table Paints {
+    id int [pk, increment]
+    color string
+}
+Table Interiors {
+    id int [pk, increment]
+    steat string
+}
+Table Technologys {
+    id int [pk, increment]
+    package string
+}
+Table Wheels {
+    id int [pk, increment]
+    wheels string
+}
+table orders {
+    id int pk
+    WheelsId int  fk
+    TechnologysId int fk
+    InteriorsId int fk
+    PaintId int fk
+}
