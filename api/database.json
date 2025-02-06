@@ -90,17 +90,24 @@
   "carOrder": [
     {
       "wheelId": 3,
-      "interiorId": 2,
-      "technologyId": 4,
-      "paintId": 3,
+      "interiorId": 3,
+      "technologyId": 2,
+      "paintId": 2,
       "id": 1
     },
     {
-      "wheelId": 1,
+      "wheelId": 4,
       "interiorId": 1,
       "technologyId": 4,
       "paintId": 2,
       "id": 2
+    },
+    {
+      "wheelId": 1,
+      "interiorId": 3,
+      "technologyId": 3,
+      "paintId": 3,
+      "id": 3
     }
   ]
 }
